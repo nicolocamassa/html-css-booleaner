@@ -60,7 +60,7 @@
     font-size: 20px;
 }
 
-
+/*Gestione delle scritte dell'articolo.*/
 .writing-article-section{
     margin-top: 30px;
     font-size: 30px;
@@ -70,12 +70,14 @@
     background-color: yellow;
 }
 
+/*Stile lista non numerata.*/
 ul{
     font-size: 28px;
     margin-top: 50px;
     margin-left: 30px;
 }
 
+/*Stile tabella.*/
 table{
     margin-top: 50px;
     width: 100%;
@@ -92,6 +94,38 @@ th{
     width: 80px;
 }
 
+th,td{
+    font-size: 20px;
+}
+
+/*Formattazione tabella.*/
 .colored-row{
     background-color: rgb(177, 229, 242);
+}
+
+/*Stile sezione degli interessi.*/
+.interests-section{
+    margin-top: 50px;
+}
+
+.interests-title{
+    color: rgb(111, 111, 111);
+    margin-bottom: 10px;
+}
+
+/*Stile immagine di sfondo degli interessi.*/
+.first-interest-image{
+    background-image: url(../img/monitor.jpg);
+    padding: 10px 10px 180px;
+    background-repeat: no-repeat;
+    color: white;
+    font-size: 30px;
+}
+
+.second-interest-image{
+    background-image: url(../img/graph.jpg);
+    padding: 10px 10px 200px;
+    background-repeat: no-repeat;
+    color: white;
+    font-size: 30px;
 }
