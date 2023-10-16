@@ -59,3 +59,19 @@
 .photo-description{
     font-size: 20px;
 }
+
+
+.writing-article-section{
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+.highlighted{
+    background-color: yellow;
+}
+
+ul{
+    font-size: 28px;
+    margin-top: 50px;
+    margin-left: 30px;
+}
