@@ -75,3 +75,23 @@ ul{
     margin-top: 50px;
     margin-left: 30px;
 }
+
+table{
+    margin-top: 50px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead{
+    text-align: left;
+    background-color: rgb(32, 169, 229);
+    color: white;
+}
+
+th{
+    width: 80px;
+}
+
+.colored-row{
+    background-color: rgb(177, 229, 242);
+}
