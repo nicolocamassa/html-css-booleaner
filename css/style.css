@@ -1,17 +1,61 @@
+/*Creazione pagina in un formato standard.*/
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
+/*Aggiunta dello sfondo nella sezione che conterrà il logo.*/
 .title-section{
     background-image: url(../img/pattern.png);
     background-color: rgb(78, 160, 255);
     background-size: 450px;
 }
 
+/*Gestione dello stile del logo.*/
 .logo-image{
     width: 200px;
     padding-top: 40px;
     padding-bottom: 10px;
+}
+
+/*Stile per il titolo della notizia.*/
+.argument-title{
+    margin-top: 10px;
+    font-size: 70px;
+}
+
+/*Crediti e data.*/
+.credit{
+    margin-top: 10px;
+    font-size: 33px;
+}
+
+.author{
+    color: rgb(37, 171, 229);
+}
+
+.date{
+    font-size: 23px
+}
+.credit-date-section{
+    color: rgb(111, 111, 111);
+}
+
+/*Sezione foto.*/
+.photo-section{
+    margin-top: 30px;
+    object-fit: fill;
+}
+
+.tim-photo-1{
+    width: 950px;
+}
+
+.tim-photo-2{
+    width: 810px;
+}
+
+.photo-description{
+    font-size: 20px;
 }
