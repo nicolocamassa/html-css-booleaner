@@ -1,0 +1,136 @@
+/*Creazione pagina in un formato standard.*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 991px;
+    margin: 0 auto;
+}
+
+/*Aggiunta dello sfondo nella sezione che conterrà il logo.*/
+.title-section{
+    background-image: url(../img/pattern.png);
+    background-color: rgb(78, 160, 255);
+    background-size: 450px;
+}
+
+/*Gestione dello stile del logo.*/
+.logo-image{
+    width: 200px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+
+/*Stile per il titolo della notizia.*/
+.argument-title{
+    margin-top: 10px;
+    font-size: 70px;
+}
+
+/*Crediti e data.*/
+.credit{
+    margin-top: 10px;
+    font-size: 33px;
+}
+
+.author{
+    color: rgb(37, 171, 229);
+}
+
+.date{
+    font-size: 23px
+}
+.credit-date-section{
+    color: rgb(111, 111, 111);
+}
+
+/*Sezione foto.*/
+.photo-section{
+    margin-top: 30px;
+    object-fit: fill;
+}
+
+.tim-photo-1{
+    width: 480px;
+}
+
+.tim-photo-2{
+    width: 410px;
+}
+
+.photo-description{
+    font-size: 20px;
+}
+
+/*Gestione delle scritte dell'articolo.*/
+.writing-article-section{
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+.highlighted{
+    background-color: yellow;
+}
+
+/*Stile lista non numerata.*/
+ul{
+    font-size: 28px;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+/*Stile tabella.*/
+table{
+    margin-top: 50px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead{
+    text-align: left;
+    background-color: rgb(32, 169, 229);
+    color: white;
+}
+
+th{
+    width: 80px;
+}
+
+th,td{
+    font-size: 20px;
+}
+
+/*Formattazione tabella.*/
+.colored-row{
+    background-color: rgb(177, 229, 242);
+}
+
+/*Stile sezione degli interessi.*/
+.interests-section{
+    margin-top: 50px;
+}
+
+.interests-title{
+    color: rgb(111, 111, 111);
+    margin-bottom: 10px;
+}
+
+/*Stile immagine di sfondo degli interessi.*/
+.first-interest-image{
+    background-image: url(../img/monitor.jpg);
+    padding: 10px 10px 180px;
+    background-repeat: no-repeat;
+    color: white;
+    font-size: 30px;
+}
+
+.second-interest-image{
+    background-image: url(../img/graph.jpg);
+    padding: 10px 10px 200px;
+    background-repeat: no-repeat;
+    color: white;
+    font-size: 30px;
+}
